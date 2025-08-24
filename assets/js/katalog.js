@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const allProducts = [
         { id: 'autocad', name: 'Autocad 2024', category: 'Software', imageUrl: 'https://seeklogo.com/images/A/autocad-logo-69326D7728-seeklogo.com.png', downloadUrl: 'https://docs.google.com/document/d/10crIM9GQiejAOxSbs3H2f8ijuOoXhUfM1h2FJSnyZqo/edit?usp=drive_link' },
-        { id: 'revit', name: 'Revit 2024', category: 'Software', imageUrl: 'https://tse3.mm.bing.net/th/id/OIP.VqdEDYxixwasnYhFl015kQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3', downloadUrl: 'https://docs.google.com/document/d/1feyD6dkqBgRn2-vyjM_51bSYFaRC8RGeipwATWVQcps/edit?usp=drive_link' },
+        { id: 'revit', name: 'Revit 2024', category: 'Software', imageUrl: 'https://tse3.mm.bing.net/th/id/OIP.VqdEDYxixwasnYhFl015kQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3', downloadUrl: 'https://docs.google.com/document/d/19zTvwSfoqpsj0t84WhZtHwZCwRvRWlJDTgy5Lzwr98A/edit?usp=drive_link' },
         { id: 'sketchup-2024', name: 'Sketchup 2024', category: 'Software', imageUrl: 'https://www.liblogo.com/img-logo/sk5372s17c-sketchup-logo-sketchup-cad-international.png', downloadUrl: 'https://docs.google.com/document/d/1kWYo84t5HBftGw5tDXH0UU_LkBK3P2ys-m3cJFjVrcE/edit?usp=drive_link' },
         { id: 'sketchup-2023', name: 'Sketchup 2023', category: 'Software', imageUrl: 'https://www.liblogo.com/img-logo/sk5372s17c-sketchup-logo-sketchup-cad-international.png', downloadUrl: 'https://docs.google.com/document/d/1f_DQzhiXifiTdmDKh_QWHYvXcsR6QBRFhjHwCAKw1ek/edit?usp=drive_link' },
         { id: 'dynamic-block', name: 'Dynamic Block AutoCad', category: 'Template', imageUrl: 'https://i.ytimg.com/vi/RfM7kVy_ZCc/maxresdefault.jpg', downloadUrl: 'https://drive.google.com/drive/folders/1gm2unasugMfV4nck_qR9mSJZDXiik__o?usp=drive_link' },
@@ -131,3 +131,4 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     renderAllProducts(allProducts);
 });
+
