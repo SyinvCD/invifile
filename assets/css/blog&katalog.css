@@ -1,0 +1,47 @@
+/* Mengatur font utama dan warna latar belakang body */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+}
+
+/* Style untuk animasi header yang bergeser saat scroll */
+#page-header {
+    transition: transform 0.3s ease-in-out;
+}
+
+#page-header.header-hidden {
+    transform: translateY(-100%);
+}
+
+/* Menyembunyikan scrollbar */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Kartu Repository */
+.project-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.project-card:hover {
+    border-color: #a78bfa;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+}
+
+/* STYLE BARU: Aktivitas Terbaru */
+.activity-item {
+    position: relative;
+}
+/* Membuat titik pada timeline */
+.activity-item::before {
+    content: '';
+    position: absolute;
+    left: -1.7rem; /* Menyesuaikan posisi titik agar pas di garis */
+    top: 0.5rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #d1d5db;
+    border-radius: 9999px;
+    border: 2px solid white;
+}

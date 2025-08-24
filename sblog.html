@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Syinv</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Menghubungkan ke file CSS utama -->
+    <link rel="stylesheet" href="assets/css/blog&katalog.css">
+</head>
+<body class="bg-gray-100">
+
+    <div class="max-w-sm mx-auto bg-white min-h-screen shadow-lg flex flex-col">
+
+        <!-- HEADER DIPERBARUI: Strukturnya disamakan dengan index.html -->
+        <header id="page-header" class="sticky top-0 z-20 px-6 py-4 rounded-b-3xl text-white relative bg-cover bg-center shadow-lg">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-black/30 rounded-b-3xl"></div>
+            <div class="relative z-10">
+                <div class="flex justify-end mb-2">
+                    <button id="menu-toggle" class="p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors backdrop-blur-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
+                    </button>
+                </div>
+
+                <nav id="mobile-menu" class="hidden absolute top-full right-0 mt-2 w-48 bg-white/95 backdrop-blur-sm rounded-xl shadow-lg ring-1 ring-black ring-opacity-5">
+                    <div class="py-2">
+                        <a href="sblog.html" class="block px-4 py-2 text-sm text-purple-700 bg-purple-100 font-bold">BLOG</a>
+                        <a href="index.html" class="block px-4 py-2 text-sm text-gray-800 font-semibold hover:bg-purple-100">FILE</a>
+                        <a href="kas.html" class="block px-4 py-2 text-sm text-gray-800 font-semibold hover:bg-purple-100">KAS</a>
+                    </div>
+                </nav>
+
+                <!-- PROFIL-->
+                <div class="flex items-center space-x-4">
+                    <img 
+                        src="images/hamid.jpg" 
+                        alt="Foto Profil" 
+                        class="w-20 h-20 rounded-full border-4 border-white/50 shadow-md object-cover"
+                        onerror="this.onerror=null;this.src='https://placehold.co/80x80/7c3aed/ffffff?text=S';"
+                    >
+                    <div>
+                        <h1 class="text-3xl font-bold">Syinv</h1>
+                        <p class="mt-1 text-white/90">Frontend Developer (Amin)</p>
+                    </div>
+                </div>
+                 
+                <div class="mt-3 flex items-center space-x-4">
+                    <a href="https://www.instagram.com/syiinvv?utm_source=qr&igsh=MXJlcDNmbTAweWE1Zw== " target="_blank" class="text-white/80 hover:text-white transition-colors"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="https://www.tiktok.com/@sayainvi?_t=ZS-8ykuS9TVslW&_r=1" target="_blank" class="text-white/80 hover:text-white transition-colors"><i class="fab fa-tiktok fa-lg"></i></a>
+                    <a href="https://x.com/Syinv4AD3 target="_blank" class="text-white/80 hover:text-white transition-colors"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="https://saweria.co/Sayainvi" target="_blank" class="text-white/80 hover:text-white transition-colors font-bold text-sm bg-white/20 px-3 py-1 rounded-full backdrop-blur-sm">Saweria</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Konten Utama -->
+        <main class="p-5 flex-grow">
+            <!-- Bagian Repository GitHub -->
+            <section>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Repository GitHub</h2>
+                <div id="pinned-projects-grid" class="space-y-3">
+                    <!-- Repository akan diisi oleh JavaScript -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/js/blog.js"></script>
+</body>
+</html>
